@@ -7,7 +7,7 @@ struct product{
 };
 
 int main(){
-	FILE *file = fopen("testdata.in", "r");
+	FILE *file = fopen("testdataE.in", "r");
 	if(!file) return 0;
 	
 	int tc;
